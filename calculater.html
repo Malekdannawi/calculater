@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script>
+function calcNumber (result) {
+form.displayresult.value=form.displayresult.value+result;}
+</script>
+</head>
+<body>
+<div class="container">
+<form name="form">
+<div class="display">
+<input type="text" placeholder="0" name="displayresult" />
+</div>
+<div class="buttons">
+<div>
+<input type="reset" name="bC" value="C" onClick="calcNumber(bC.value)">
+
+</div>
+<div>
+<input type="button" name="b7" value="7" onClick="calcNumber(b7.value)">
+<input type="button" name="b8" value="8" onClick="calcNumber(b8.value)">
+<input type="button" name="b9" value="9" onClick="calcNumber(b9.value)">
+<input type="button" name="addb" value="+" onClick="calcNumber(addb.value)">
+</div>
+<div>
+<input type="button" name="b4" value="4" onClick="calcNumber(b4.value)">
+<input type="button" name="b5" value="5" onClick="calcNumber(b5.value)">
+<input type="button" name="b6" value="6" onClick="calcNumber(b6.value)">
+<input type="button" name="add" value="-" onClick="calcNumber(add.value)">
+</div>
+<div>
+<input type="button" name="b1" value="1" onClick="calcNumber(b1.value)">
+<input type="button" name="b2" value="2" onClick="calcNumber(b2.value)">
+<input type="button" name="b3" value="3" onClick="calcNumber(b3.value)">
+<input type="button" name="mulb" value="*" onClick="calcNumber(mulb.value)">
+</div>
+<div>
+<input type="button" name="b0" value="0" onClick="calcNumber(b0.value)">
+<input type="button" name="bn" value="." onClick="calcNumber(bn.value)">
+<input type="button" name="bdiv" value="/" onClick="calcNumber(bdiv.value)">
+<input type="button" name="equalb" value="=" onClick="displayresult.value=eval(displayresult.value)">
+</div>
+</body>
+</html>
